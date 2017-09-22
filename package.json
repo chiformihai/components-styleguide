@@ -19,7 +19,8 @@
     "styleguide-build": "NODE_ENV=production styleguidist build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "publish-docs": "npm run styleguide-build && npm run gh-pages"
+    "publish-docs": "npm run styleguide-build && npm run gh-pages",
+    "docs": "buildbranch gh-pages styleguide"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
