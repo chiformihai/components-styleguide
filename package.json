@@ -20,5 +20,6 @@
   },
   "devDependencies": {
     "react-styleguidist": "^6.0.24"
-  }
+  },
+  "homepage" : "http://chiformihai.github.io/mari-styleguidist"
 }
