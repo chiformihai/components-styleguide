@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e86df76e-6758-4e4f-9bbd-df8408446253" name="Default" comment="" />
+    <list default="true" id="e86df76e-6758-4e4f-9bbd-df8408446253" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -115,17 +117,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="chiformihai.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chiformihai.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="styleguide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chiformihai.github.io-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chiformihai.github.io-master" type="462c0819:PsiDirectoryNode" />
-              <item name="styleguide" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -175,12 +166,12 @@
       <workItem from="1505896980178" duration="495000" />
       <workItem from="1505898923761" duration="5988000" />
       <workItem from="1506077028932" duration="2516000" />
-      <workItem from="1506081908505" duration="461000" />
+      <workItem from="1506081908505" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10232000" />
+    <option name="totallyTimeSpent" value="10385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="802" extended-state="0" />
