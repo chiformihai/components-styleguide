@@ -1,3 +1,8 @@
+'use strict';
+/*global __dirname*/
+
+var path = require('path');
+
 module.exports = {
   sections: [
     {
@@ -23,16 +28,24 @@ module.exports = {
       components: 'src/components/**/*.js'
     }
   ],
-  webpackConfig: {
-    module: {
-      rules: [
-        // Babel loader, will use your project’s .babelrc
-        {
-          test: /\.jsx?$/,
-          exclude: /node_modules/,
-          loader: 'babel-loader'
-        }
-      ]
+  webpackConfig: function(env) {
+    var dir = path.join(__dirname, 'src/components');
+
+    var babel = {
+      test: /\.js?$/,
+      include: dir,
+      loader: 'babel-loader'
+    };
+    if (env !== 'production') {
+      babel.query = {
+        presets: ['es2015', 'react-hmre']
+      };
     }
-  }
+
+    return {
+      module: {
+        loaders: [babel]
+      }
+    };
+  },
 };
