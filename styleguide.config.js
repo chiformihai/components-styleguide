@@ -23,5 +23,4 @@ module.exports = {
       components: 'src/components/**/*.js'
     }
   ],
-  template: 'src/index.html',
 };
